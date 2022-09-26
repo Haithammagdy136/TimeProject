@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+}
+
+body {
+    background-image: radial-gradient(#2D8BA8, white);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.title {
+    margin: 20px;
+    font-size: 60px;
+}
+
+/* Start draggable */
+.taskinput {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 50%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskinput_text {
+    font-size: 30px;
+}
+
+.taskdata {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 10px;
+}
+
+.taskdata input {
+    padding: 18px;
+    outline: none;
+    border: 1px solid #2D8BA8;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.taskdata input,
+type {
+    font-size: 15px;
+}
+
+.taskdata button {
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: #2D8BA8;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.taskgroup {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.tasks {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 16%;
+}
+
+.taskbox_title {
+    text-align: center;
+}
+
+.taskbox_data {
+    background: #2D8BA8;
+    padding: 15px;
+    margin: 10px;
+    cursor: move;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+/* End draggable */
+
+
+/* Start Stopwatch */
+
+.writ {
+    font-size: 23px;
+}
+
+.counterDown {
+    color: white;
+    font-size: 65px;
+}
+
+.counterDown input {
+    width: 75px;
+    height: 70px;
+    text-align: center;
+    font-size: 65px;
+    color: #2D8BA8;
+
+}
+
+.stopwach {
+    color: white;
+    font-size: 65px;
+}
+
+.buttons button {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 70px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#ms {
+    display: none;
+}

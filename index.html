@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Project</title>
+</head>
+
+<body>
+    <!-- بسم الله الرحمن الرحيم -->
+    <h2 class="title">Time Management</h2>
+
+
+    <!-- Start Stopwatch  -->
+    <h1 class="writ"> WRITE THE ESTIMATED TIME </h1>
+    <div class="counterDown">
+        <input id="hourd" value="0"></input> :
+        <input id="mind" value="0"></input> :
+        <input id="secd" value="0"></input>
+    </div>
+
+    <div class="stopwach">
+        <span id="hour">00</span> :
+        <span id="min">00</span> :
+        <span id="sec">00</span>
+        <span id="ms">00</span>
+    </div>
+
+    <div class="buttons">
+        <button id="reset">Reset</button>
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+    </div>
+
+
+
+
+    <!-- Start new task -->
+    <div class="taskinput">
+        <h2 class="taskinput_text">New Task</h2>
+        <div class="taskdata">
+            <input type="text" placeholder="WRITE NEW TASK" name="" id="inputdata">
+            <button id="btnadd">ADD</button>
+        </div>
+    </div>
+
+    <!-- Start tasks -->
+    <div class="taskgroup">
+        <div class="tasks">
+            <div class="tasks_taskbox">
+                <h2 class="taskbox_title">Stories</h2>
+            </div>
+        </div>
+        <div class="tasks">
+            <div class="tasks_taskbox">
+                <h2 class="taskbox_title">To Do</h2>
+            </div>
+        </div>
+        <div class="tasks">
+            <div class="tasks_taskbox">
+                <h2 class="taskbox_title">In Progress</h2>
+            </div>
+        </div>
+        <div class="tasks">
+            <div class="tasks_taskbox">
+                <h2 class="taskbox_title">Testing</h2>
+            </div>
+        </div>
+        <div class="tasks">
+            <div class="tasks_taskbox">
+                <h2 class="taskbox_title">Done</h2>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
